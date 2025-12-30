@@ -537,6 +537,11 @@ footer{
         bottom: 7px;
         left: 20%;
     }
+    .links ul li{
+        color: blue;
+        text-decoration: underline;
+
+    }
 
 
     
