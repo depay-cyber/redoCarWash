@@ -413,6 +413,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 30px;
     
     
@@ -439,6 +440,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     
 }
 .links ul{
@@ -446,6 +448,7 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     width: 100%;
     
     
@@ -466,4 +469,75 @@ footer{
     color: aliceblue;
     text-align: center;
     padding: 10px;
+}
+
+
+/* @media only screen and (max-width: 768px){
+    .holder{
+        width: 100%;
+    }
+    .realWrapper{
+        width: 100%;
+        background-color: red;
+    }
+} */
+
+@media only screen and (max-width: 412px) {
+    .holder{
+        width: 100%;
+    }
+    .realWrapper{
+        width: 100%;
+    
+    }
+    .img{
+        width: 100%;
+
+    }
+    .objectWrapper{
+        position: relative;
+    }
+    .text{
+        position: absolute;
+        top: 0;
+        left: 10px;
+        
+
+        
+    }
+    .text h2{
+        font-size: 2rem;
+    }
+    .textMover{
+        width: 100%;
+    }
+    .wrapper1{
+        margin: 30px auto;
+    }
+    footer{
+        height: auto;
+    }
+    .body{
+        height: auto;
+    }
+    .logoArea{
+        flex-direction: column;
+        padding: 5px;
+    }
+    
+    .cover h2{
+        top: 5%;
+
+    }
+    .title{
+        position: relative;
+    }
+    .line2{
+        position: absolute;
+        bottom: 7px;
+        left: 20%;
+    }
+
+
+    
 }
