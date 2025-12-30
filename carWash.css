@@ -542,6 +542,9 @@ footer{
         text-decoration: underline;
 
     }
+    .objectWrapper img{
+        object-fit: cover;
+    }
 
 
     
