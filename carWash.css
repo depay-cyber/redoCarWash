@@ -545,6 +545,12 @@ footer{
     .objectWrapper img{
         object-fit: cover;
     }
+    .textMover{
+        color: white;
+    }
+    .textMover p{
+        color:white;
+    }
 
 
     
